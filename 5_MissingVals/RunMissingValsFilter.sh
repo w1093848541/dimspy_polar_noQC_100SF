@@ -19,7 +19,7 @@ echo "Starting Missing Value Filter"
 dimspy mv-sample-filter \
 --input ../4_SampleFilter/sampleFilter.* \
 --output missingVals.$PBS_JOB \
---max-fraction 0.8
+--max-fraction 0.75
 
 echo "Missing Values Filter Complete"
 
