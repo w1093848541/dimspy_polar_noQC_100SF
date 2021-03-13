@@ -19,7 +19,7 @@ echo "Starting Sample Filter"
 dimspy sample-filter \
 --input ../3_BlankFilter/blankFilter.* \
 --output sampleFilter.$PBS_JOB \
---min-fraction 0.8
+--min-fraction 0.75
 
 #options to consider: --within, -rsd_threshold
 
